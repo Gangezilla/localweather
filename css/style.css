@@ -1,0 +1,58 @@
+
+html,body {
+  height:100%;
+}
+
+.backDrop {
+  background: linear-gradient(to bottom right, red, yellow);
+  height:100%;
+}
+
+.valign {
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.btn.outline {
+    background: none;
+  border:2px solid white;
+  color:white;
+}
+
+.btn.outline:focus, btn.outline:active   {
+    outline:none;
+    border-color: black;
+    background: white;
+    color: black;
+}
+
+.headerText {
+  margin-top:70px;
+  text-align:left;
+  color:white;
+  font-family:'Playfair Display',serif;
+  font-size:55px;
+  margin-bottom:20px;
+}
+
+.bodyText {
+  text-align:left;
+  color:white;
+  font-family:Montserrat;
+  font-size:20px;
+}
+
+.clothesImg {
+  margin-top:40px;
+  height:200px;
+  width:200px;
+}
+
+.caption {
+  text-align:center;
+  color:white;
+  font-family:Montserrat;
+  font-size:14px;
+}
